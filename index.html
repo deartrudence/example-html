@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- meta tag that allows the site to be responsive (ie. look good on phones) -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bring in the styles from the external file -->
+	<!-- Normalize standardizes css across browsers -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<!-- this brings in the google fonts you've chosen -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+	<!-- these are your own styles -->
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="./images/fancylogo.png" alt="fancy logo" class="logo">
+			</div>
+			<ul class="menu-list">
+				<li><a href="#about">About</a></li>
+				<li><a href="#details">Details</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="hero" class="hero">
+		
+	</section>
+
+	<section id="about" class="about">
+		<h2>About</h2>
+		<div class="about-container">
+			<div class="left">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero deleniti nesciunt harum placeat aut totam hic perspiciatis neque nostrum, temporibus esse libero quos commodi!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla necessitatibus nostrum sit eligendi fuga saepe, dolore, hic ea provident temporibus incidunt ratione porro. Iure similique non vitae necessitatibus, ex blanditiis quam commodi dolore excepturi ea dolores totam veritatis illum et incidunt repellendus quisquam ipsa quas unde, ipsam possimus enim eligendi!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia facilis ex voluptate autem enim, culpa ut dolorum nisi consequatur adipisci, vero est nulla error eum hic!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, sapiente, quod! Laborum vel illo, sed esse? Sint laudantium nisi libero commodi cupiditate totam, quasi repudiandae, nihil deleniti, in, culpa.</p>
+			</div>
+			<div class="right">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam iure, ut magni alias, error adipisci.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consectetur fugiat laboriosam possimus eveniet suscipit harum necessitatibus delectus architecto id ea quae expedita, tenetur vero omnis, enim eum. Ratione, vero!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ut ea asperiores, repellat maiores hic!</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum pariatur accusantium quisquam cum recusandae minima vero, exercitationem debitis provident facere expedita quidem quibusdam harum repellat quam praesentium commodi molestias repudiandae necessitatibus quod tempore. Alias molestias molestiae laboriosam officiis. Incidunt voluptate quasi, quae.</p>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="details" class="details">
+		<h2>Details</h2>
+		<div class="details-container">
+			<div class="left">
+				<ul class="details-list">
+					<li><img src="./images/step1-num.png" alt=""><span>The First Step in the Process</span></li>
+					<li><img src="./images/step2-num.png" alt=""><span>Then There's Another Step</span></li>
+					<li><img src="./images/step3-num.png" alt=""><span>Finally, the Last Step</span></li>
+				</ul>
+			</div>
+			<div class="right">
+				<div class="photo-grid">
+					<img src="./images/woman.png" alt="women">
+					<img src="./images/tokyo.png" alt="tokyo">
+					<img src="./images/coffee.png" alt="coffee with friends">
+					<img src="./images/pool.png" alt="pool">
+					<img src="./images/doggie.png" alt="doggie">
+					<img src="./images/food.png" alt="food">
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="contact" class="contact">
+		<h2>Contact Us</h2>
+		<div class="form-container">
+		  <form action="#">
+
+		    <label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		    <label for="country">Country</label>
+		    <select id="country" name="country">
+		      <option value="australia">Australia</option>
+		      <option value="canada">Canada</option>
+		      <option value="usa">USA</option>
+		    </select>
+
+		    <label for="subject">Subject</label>
+		    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		    <input type="submit" value="Submit">
+
+		  </form>
+		</div>
+	</section>
+
+	<footer>
+		<p>this is the footer</p>
+	</footer>
+	
+</body>
+</html>

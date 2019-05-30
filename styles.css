@@ -1,0 +1,135 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 160px;
+}
+
+.menu-list {
+	display: flex;
+	list-style: none;
+}
+
+.menu-list li {
+	margin-right: 20px;
+}
+.menu-list li a {
+	text-decoration: none;
+	color: #333;
+	transition: 0.3s;
+}
+.menu-list li a:hover, .menu-list li a:focus{
+	color: #7c7aa1;
+	border-bottom: 1px solid #7c7aa1;
+}
+
+section {
+	padding: 40px;
+	min-height: 60vh;
+}
+
+
+h2 {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.hero {
+	background-image: url('https://source.unsplash.com/random');
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 80vh;
+}
+
+.about {
+	background-color: #8CAAE5;
+}
+
+.about-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+}
+
+.details {
+	background-color: #B4F4FA;
+}
+
+.details-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+}
+
+.photo-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.details-list li {
+	display: flex;
+	align-items: center;
+	margin: 40px 0;
+}
+.details-list li img {
+	margin-right: 20px;
+}
+
+.contact {
+	background-color: #B2AFE7;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid white; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #7c7aa1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #333;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  background-color: rgba(255,255,255, 0.4);
+  padding: 20px;
+  box-shadow: 0 1px 16px rgba(0,0,0,0.18);
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+footer {
+	background: #333;
+	padding: 60px;
+	color: white;
+}
