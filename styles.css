@@ -52,6 +52,11 @@ img {
 	background-attachment: fixed;
 	background-size: cover;
 	min-height: 80vh;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: white;
 }
 
 .about {
